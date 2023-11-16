@@ -19,6 +19,8 @@ def get_open(f):
 
 
 def main(argv=None):
+    sys.stderr.write("Error out test\n")
+    sys.stdout.write("cout out test\n")
     parser = argparse.ArgumentParser(
         description="Creates example output JSON for loading into IRIDA Next",
         epilog="Example: python irida-next-output.py --json-output output.json *.json *.json.gz",
