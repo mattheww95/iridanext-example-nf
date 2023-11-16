@@ -1,7 +1,7 @@
 process IRIDA_NEXT_OUTPUT {
     label 'process_single'
 
-    container 'docker.io/python:3.9.17'
+    container 'quay.io/fedora/python-311'
 
     input:
     path(samples_data)
